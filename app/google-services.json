@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "197624547105",
+    "firebase_url": "https://tuitionfinder-6c38e.firebaseio.com",
+    "project_id": "tuitionfinder-6c38e",
+    "storage_bucket": "tuitionfinder-6c38e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197624547105:android:5596b156aeef66bb",
+        "android_client_info": {
+          "package_name": "com.example.odhimatrik.tuitionfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197624547105-ustsaeugmku984pmvb8tcicscopn3emi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.odhimatrik.tuitionfinder",
+            "certificate_hash": "dc5f5088ba482d44d427ebeb0ba5634c25358d45"
+          }
+        },
+        {
+          "client_id": "197624547105-04gl5j5tngef8t809qkpha55ofc1hui8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaJN9z4c5pBIM-ZA-wc3ezsdNwNd0xsgM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197624547105-04gl5j5tngef8t809qkpha55ofc1hui8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

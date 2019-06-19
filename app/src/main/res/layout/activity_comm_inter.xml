@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.odhimatrik.tuitionfinder.Comm_inter">
+
+
+<LinearLayout
+    android:layout_centerVertical="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to our app"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:id="@+id/ref_to_tutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Search tuition" />
+    <Button
+        android:id="@+id/ref_to_prov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Post A Tuition" />
+
+    <Button
+        android:id="@+id/ref_to_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Logout" />
+
+
+
+</LinearLayout>
+
+</RelativeLayout>

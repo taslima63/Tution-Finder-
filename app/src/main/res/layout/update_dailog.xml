@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+
+    <EditText
+        android:id="@+id/ETNloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Location"
+        android:textSize="20sp"
+        android:textAlignment="center"
+
+        />
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/ETNclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Class"
+        android:textSize="20sp"
+
+        />
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/ETNsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Subjects"
+        android:textSize="20sp"
+
+        />
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/ETNWD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Weekly Days"
+        android:textSize="20sp"
+
+        />
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/ETNsalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Salary"
+        android:textSize="20sp"
+
+        />
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/ETNcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter New Contact"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
